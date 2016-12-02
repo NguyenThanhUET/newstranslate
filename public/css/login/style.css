@@ -97,7 +97,7 @@ input, button {
 }
 .login__form {
   position: absolute;
-  top: 50%;
+  top: 36%;
   left: 0;
   width: 100%;
   height: 50%;
@@ -126,19 +126,20 @@ input, button {
           animation: animatePath 2s 0.5s forwards;
 }
 .login__input {
-  display: inline-block;
-  width: 22rem;
-  height: 100%;
-  padding-left: 1.5rem;
-  font-size: 1.5rem;
-  background: transparent;
-  color: #FDFCFD;
+  display: inline-block !important;
+  width: 22rem !important;
+  height: 100% !important;
+  padding-left: 1.5rem !important;
+  font-size: 1.5rem !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #FDFCFD !important;
 }
 .login__submit {
   position: relative;
   width: 100%;
   height: 4rem;
-  margin: 5rem 0 2.2rem;
+  margin: 2rem 0 2.2rem;
   color: rgba(255, 255, 255, 0.8);
   background: #FF3366;
   font-size: 1.5rem;
@@ -524,4 +525,21 @@ input, button {
   to {
     stroke-dashoffset: 0;
   }
+}
+/*custom css*/
+.social{
+  color: darkgrey;
+  font-size: 15px;
+}
+.hr-social{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.btn-social-icon{
+  background-image:none !important;
+}
+.button-social-area{
+  margin-bottom: 5px;
 }

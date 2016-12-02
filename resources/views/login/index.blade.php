@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>Login/Logout animation concept</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-social.css">
     <link rel='stylesheet prefetch' href='/css/api/googleapis.css'>
 
     <link rel="stylesheet" href="/css/login/style.css">
@@ -30,6 +32,21 @@
                     <input type="password" class="login__input pass" placeholder="Password"/>
                 </div>
                 <button type="button" class="login__submit">Sign in</button>
+                <div class="social">
+                    Sign in Via
+                </div>
+                <hr class="hr-social">
+                <div class="button-social-area">
+                    <a class="btn btn-social-icon btn-facebook">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-google">
+                        <span class="fa fa-google"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-twitter">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                </div>
                 <p class="login__signup">Don't have an account? &nbsp;<a href="/register">Sign up</a></p>
             </div>
         </div>
@@ -104,8 +121,8 @@
         </div>
     </div>
 </div>
+<script src="/bootstrap/js/bootstrap.js"></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
 <script src="/js/login/index.js"></script>
 
 </body>
