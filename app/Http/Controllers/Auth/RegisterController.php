@@ -38,14 +38,16 @@ class RegisterController extends Controller
     {
         $this->middleware('guest');
     }
-
+    public function index(){
+        return view('register/index');
+    }
     /**
      * Get a validator for an incoming registration request.
      *
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
-    protected function validator(array $data)
+    protected function g(array $data)
     {
         return Validator::make($data, [
             'name' => 'required|max:255',
