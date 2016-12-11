@@ -34,5 +34,9 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
-
+    'google' => [
+        'client_id' => '773322437089-40m4gd24cjt0det4srp979hletu5iiss.apps.googleusercontent.com',
+        'client_secret' => 'KPV2eXG68kSsyGJnHNg_wEHB',
+        'redirect' => 'http://localhost.newstranslate.com/auth/google/callback',
+    ]
 ];

@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html >
-<head>
-    <meta charset="UTF-8">
-    <title>Login/Logout animation concept</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-
-    <link rel='stylesheet prefetch' href='/css/api/googleapis.css'>
-
-    <link rel="stylesheet" href="/css/register/style.css">
-
-
-</head>
-<body>
+@extends('layouts.auth')
+@section('title', 'Sign up')
+@section('content')
 <div class="cont">
     <div class="demo">
         <div class="login">
@@ -109,9 +98,5 @@
         </div>
     </div>
 </div>
-<script src='/js/api/jquery.min.js'></script>
-
 <script src="/js/register/index.js"></script>
-
-</body>
-</html>
+@endsection

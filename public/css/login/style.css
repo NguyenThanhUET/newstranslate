@@ -75,7 +75,7 @@ input, button {
 }
 .login__check {
   position: absolute;
-  top: 16rem;
+  top: 13rem;
   left: 13.5rem;
   width: 14rem;
   height: 2.8rem;
@@ -97,7 +97,7 @@ input, button {
 }
 .login__form {
   position: absolute;
-  top: 36%;
+  top: 30%;
   left: 0;
   width: 100%;
   height: 50%;
